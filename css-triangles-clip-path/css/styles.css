@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    clip-path: polygon(0 0, 0 100%, 100% 100%);*/
+}
+
+.triangle {
+	background-color: darkseagreen;
+    height: 200px;
+    width: 200px;
+    /* The points are: centered top, left bottom, right bottom */
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
